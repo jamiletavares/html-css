@@ -1,0 +1,39 @@
+Código Base
+
+abrir visual studio code
+
+apertar exclamação
+! 
+aguardar alguns segundos e apertar enter
+mudar para pt-br
+
+<!DOCTYPE html> : significa que é html  5.
+<html lang="pt-br"> : qual é a linguagem do site.
+<head>: é configurações do site.
+    <meta charset="UTF-8"> : padrão de caracteres que suporta pontuação.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> : ocupar 100% visivel da area disponivel do body.
+    <title></title> : titulo
+</head>
+<body>: é o conteudo do site
+    
+</body>
+</html>
+
+*não são todas, mas a maioria das tag tem começo e fechamento*
+
+h1 : cabeçalho titulo de nivel 1
+p : paragrafo
+
+h1 titulo de nivel 1
+h2 titulo de nivel 2
+h3 titulo de nivel 3
+vai até o h6
+
+se a tag ficar vermelha é pq não funciona mais, consultar site oficial de tag absoletas no html.
+
+imagem de celular 300 por 300 e resolução 80
+
+
+imagem de tablet 700 por 700 e resolução 80
+
+imagem de note 1000 por 1000 e resolução 80

@@ -1,0 +1,373 @@
+hr : linha horizontal
+
+h1 : primeiro titulo no body
+
+p : paragrafo 
+
+! : codigo base
+
+br : quebra de linha
+*não colocar br br br br para quebrar varias linhas pois não é o correto profissionalmente*
+
+para aparecer esse sinal ''<'' : &lt; LESS THAN MENOR QUE
+para aparecer esse sinal ''>'' : &gt; GREATER THAN MAIOR QUE 
+
+!-- : comentario no código que não aparece no site.
+
+&reg; : ®
+
+&copy; : ©
+
+&trade; : ™
+
+&euro; :  € 
+
+&pound; : £
+        
+&yen; : ¥
+        
+&cent; : ¢
+
+&Delta; : Δ
+        
+&uarr; : ↑
+
+Símbolo Descrição Entitiy
+Espaço em branco &nbsp;
+® Marca registrada &reg;
+© Copyright &copy;
+™ Trade Mark &trade;
+€ Euro &euro;
+£ Libra (pound) &pound;
+¥ Yen &yen;
+¢ Cent &cent;
+∅ Vazio &empty;
+Σ Soma &sum;
+Δ Delta &Delta;
+← Seta esquerda &larr;
+↑ Seta acima &uarr;
+→ Seta direita &rarr;
+↓ Seta baixo &darr;
+
+para mais simbolos acesse: https://www.w3schools.com/charsets/ref_utf_symbols.asp
+emojis site: https://emojipedia.org/
+&#x + codigo do emoji.
+
+ img: foto   <img src="" alt=""> src é onde esta a origem do arquivo e alt é texto alternativo explica melhor o que e´a foto.
+
+ctrl + espaço insere foto na que ta na pasta
+
+copiar endereço da imagem também funciona mas é arriscado porque a imagem da internet pode sumir.
+
+icon https://www.iconarchive.com/
+
+o formato do icon pecisa ser em ICO.
+
+https://www.favicon.cc/ vc desenha icones
+
+https://favicon.io/ transforma imagens em icones
+
+link favicon colocar essa tag no começo do codigo na area head acima do title entre o  href:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5-ico.ico" type="image/x-icon">
+    <title>Teste de Favicon</title>
+</head>
+<body>
+    <h1>Olha o favicon aqui em cima</h1>
+</body>
+</html>
+
+h1 titulo de nivel 1
+h2 titulo de nivel 2
+h3 titulo de nivel 3
+vai até o h6
+
+lorem: faz um paragrafo de blablabla, mesma coisa que paragrafo mas insere um texto aleatorio pra voce visualizar como vai ficar o texto.
+
+<abbr passar o mouse na palavra e aparecer um titulo 
+
+imagem flexivel
+dentro da tag picture pois ela permite aumentar e dimunir as fotos colocar source media type alterar para maximo/max no width colocar o maximo do tamanho da imagem e aumentar 50 pra ficar bem enquadrado.
+
+<picture>
+    
+    <source media="(max-width:790px)" srcset="imagens/paisagem-p.png" type="image/png">
+    <source media="(max-width:1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+    <img src="imagens/paisagem-g.png" alt="imagem flexivel">
+  </picture>
+
+na imagem m colocar o tamanho da g, no tamanho p colocar a m, e assim sucessivamente.
+
+negrito usar a tag: b de forma não semântica
+negrito usar a tag: strong forma semântica
+
+envelope com abreviatura ctrl shift p abb
+
+italico: i sem semantica
+italico: em com semantica
+
+Texto marcado: mark, padrão é a cor amarela, mas pode mudar a cor usando css style dentro da tag mark: style="background-color: seleciona a cor, pode deixar o mouse parado dentro da cor pra usar a canetinha e escolher de forma mais precisa a cor
+pra deixar tudo da mesma cor
+<style>
+        mark {background-color: lime;}
+    </style>
+
+cria o style abaixo do titulo no inico do codigo
+
+texto pequeno: small
+
+<del>um texto como excluído</del>
+
+<ins>um texto como inserido</ins>
+
+<u>sublinhado</u>
+
+<h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p> SUP é cima
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisa do tipo H<sub>2</sub>o</p> SUB é baixo
+
+deixar as palavras tudo do mesmo tamanho harmonico e facil de ler tag: code
+tag: pre é considerado todas quebras de linhas e fica do jeito que digitar no programa
+
+shift + tab no teclado tras o texto todo sem ter q pegar linha por linha
+
+tag: q coloca aspas nas citações
+
+blockquote cite= colocar a citação do livro em escrito e o cite a parte interna do site vai saber que voce esta citando o livro e vai aparecer nos mecanismos de busca do google
+
+<abbr title= é para explicar o que uma abreviação significa ao passar o mouse em cima
+
+<h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+
+ol: lista ordenadas - li
+<ol>
+        <li>acordar</li>
+        <li>ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+
+colocar type do lado do ol da outras opções sem ser só numero. <!--1 A a I i-->
+
+lista nao ordenada ul type disc circle square
+
+<!-- comentario invisivel no code
+
+  <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+
+   <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+    </dl>
+
+a: ancora 
+
+ <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/">canal gratuito no Youtube</a></p>
+
+target="_blank" rel="external"
+
+h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+
+pag002.html 
+
+crtl espaço facilita a colocar links sem precisar digitar o visual code ja sugere
+
+ <h2>Usando links internos</h2>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">segunda página</a></p>
+
+ <h1>Esta é a segunda página do meu site</h1>
+    <p>A segunda página esta aqui</p>
+    <p><a href="index.html" rel="prev">Voltar para primeira página</a></p>
+
+target="_self" propria pagina
+
+aprender linux 
+
+../ é voltar para a pagina anterior
+
+Existe um recurso bem interessante para links que é indicar qual é a
+natureza do destino usando o atributo rel. Esse atributo aceita vários
+valores, entre eles vou citar:
+‣next indica que o link é para a próxima parte do documento atual
+‣prev indica que o link é para a parte anterior do documento atual
+‣author indica que é um link para o site do autor do artigo atual
+‣external indica que é um link para outro site que não faz parte do site
+
+Para poder controlar onde o site de destino vai abrir, podemos usar o atributo target,
+que suporta os seguintes valores:
+‣ _blank vai abrir o link em uma nova janela em branco
+‣ _self vai abrir o link na janela ou frame atual (padrão)
+‣ _top vai desfazer todos os frames e abrir o destino no navegador completo
+‣ _parent similar ao uso do _top em uma referência à janela mãe
+‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir
+
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="livro/10 - Ligações em toda parte.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+
+picture: vai aparecer uma imagem
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem fléxivel">
+</picture>
+
+audio
+
+UMA MANEIRA
+<audio src="midia/happy-mistake.mp3"  controls autoplay></audio>
+<!--MP3 WAV OGG-->
+
+<audio>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audio/wav">
+</audio>
+
+
+<audio preload="auto" autoplay controls>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audio/wav">
+    <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</audio>
+
+video
+
+<h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width="560" poster="imagens/limoes-capa.png" controls autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+<h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+incorporar no youtube e gera o link.
+
+ <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/197093965?color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+incorporar no vimeo e gera o link.
+
+iniciou css
+
+Estilos Inline
+
+style do lado do primeiro body do codigo style backgroud-color: cor
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Inline</title>
+</head>
+<body style="background-color: lightskyblue;">
+
+<body style="background-color: lightskyblue; font-family: Arial, Helvetica, sans-serif;">
+
+<p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sit quia officiis voluptas quae atque aperiam, ipsa sapiente cum dignissimos cupiditate! Adipisci vero molestiae dolorum dolore animi ab ratione vel.</p>
+
+<body style="background-color: lightskyblue; font-family: Arial, Helvetica, sans-serif; font-size: 20px;">
+
+font-size: 20 px; é a fonte base
+
+font-size: 1.2em;
+
+css interno/local
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Locais / Internos</title>
+    <style>
+        body {
+            background-color: lightsteelblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Locais / Internos</title>
+    <style>
+        body {
+            background-color: lightsteelblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+            background-color: lightblue;
+
+        }
+        
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+
+    </style>
+
+<p><a href="pagina02.html" target="_self">Ir para a página 2</a></p>
+
+crtl e clique com o mouse em cima da pagina 02 cria um novo arquivo rapidamente.
+
+<link rel="stylesheet" href="style.css">
+crtl e clique com o mouse em cima da STYLE.CSS e cria um novo arquivo
+@charset "UTF-8"
+
+pode adicionar mais link tipo um extra.
+
+pode misturar os estilos se for coerente
+
+CSS externo = use sempre que puder
+CSS interno = use para pequenas configurações
+CSS inline = procure evitar

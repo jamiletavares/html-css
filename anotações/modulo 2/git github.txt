@@ -1,0 +1,17 @@
+git github
+
+
+repositorio local/remoto
+
+local que voce guarda coisas, existe no computador e online
+
+e fazer backup
+
+gerenciador de versoes - git dentro do seu computador
+
+github 
+
+repositorio local é o mais correto a se falar que seria o git
+
+repositorio remoto é o github
+

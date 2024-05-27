@@ -1,0 +1,23 @@
+abbr: representa uma abreviação e opcionalmente fornece uma descrição completa para ela.
+
+strong: dá ao texto uma forte importância, e é tipicamente mostrado em negrito.
+
+:root: A pseudo-classe CSS se equipara à raiz de uma árvore, que por sua vez representa o documento. usar --.
+
+.: pagina inicial
+
+..: duas paginas para trás
+
+*: facilitador
+
+hover: possibilita um elemento ter o seu estilo alterado através da ação do usuário, quando o próprio passa o cursor do mouse sobre o elemento. 
+Este recurso é bastante utilizado para adicionar funcionalidades de interação em uma aplicação web.
+
+transition-duration: é utilizado para informar o tempo de duração da animação, que pode ser definido em milissegundos ou em segundos.
+
+text-indent: especifica a quantidade de recuo (espaço vazio) que é colocado antes de linhas de texto em um bloco.
+
+line-height: definirá a altura que o texto pode ocupar, mas não definirá o tamanho daquele texto, pois para isso temos a propriedade font-size.
+
+\00A0\00A0: NÃO É COMPATIVEL COM TODOS NAVEGADORES.
+

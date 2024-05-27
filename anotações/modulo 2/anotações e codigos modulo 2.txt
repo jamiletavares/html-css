@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+</head>
+<body>
+    <!--Representação por nomes-->
+    <h2 style="background-color: blue; color: white;">Exemplo de Cores</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto recusandae autem aliquam eaque, modi doloribus est odio esse sequi ea non, dolorem veniam dolor impedit unde id ipsa praesentium!</p>
+
+    <!--Representação por códigos Hexadecimais-->
+    <!--Decimal: 0 1 2 3 4 5 6 7 8 9 -->
+    <!--Hexadecimal: 0 1 2 3 4 56 7 8 9 A B C D E F-->
+    <h2 style="background-color: #0000ff; color: #ffffff;">Exemplo de Cores</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto recusandae autem aliquam eaque, modi doloribus est odio esse sequi ea non, dolorem veniam dolor impedit unde id ipsa praesentium!</p>
+
+    <!--Representação em RGB (Red, Green, Blue)-->
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">Exemplo de Cores</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto recusandae autem aliquam eaque, modi doloribus est odio esse sequi ea non, dolorem veniam dolor impedit unde id ipsa praesentium!</p>
+    
+    <!--Representação por HSL (Hue, Sturation, Luminosity)-->
+    <h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de Cores</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, architecto recusandae autem aliquam eaque, modi doloribus est odio esse sequi ea non, dolorem veniam dolor impedit unde id ipsa praesentium!</p>
+</body>
+</html>
+
+circulo cromatico
+cores primarias: amarelo, vermelho e azul.
+
+cores secundarias: laranja, violeta e verde.
+
+cores terciárias: todas as cores misturadas de primarias e secundarias.
+
+amarelo esverdeado
+amarelo alaranjado
+vermelho alaranjado
+vermelho arroxeado
+azul arroxeado
+azul esverdeado 
+
+Temperatura de cores 
+cores frias roxo escuro, roxo claro, azul escuro, verde escuro, verde claro
+cores quentes amarelo claro, laranja, vermelho, roxo avermelhado 
+
+geralmente umapaleta tem de 3 a 5 cores no maximo, desconsiderar branco e preto.
+recomendado 4 cores.
+
+cores complementares cor oposta do circulo cromatico
+
+cores análogas cor vizinhas direito e esquerdo do circulo cromatico
+
+cores análogas e uma complementar.
+
+cores análogas relacionadas pula uma cor, exemplo escolhe amarelo e amarelo escuro, pula o laranja claro e fica com laranja escuro. Pode pular pra todos os lados do circulo.
+
+cores intercaladas pula 1 exemplo 1 pula 1 pula.
+
+cores triádicas pular tres cores
+
+cores em quadrado pular duas cores
+
+cores tetradicas cor complementar das cor inicial que você escolheu
+
+monocromia uma cor só e modificar saturação e brilho ''degrad
+
+https://color.adobe.com/pt/
+
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+
+https://coolors.co/
+
+colorzilla
+
+degradê  background-image: linear-gradient(to right, white, blue);
+
+ *{
+            height: 100%;
+
+
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{ /* Configurações globais das CSS */
+            height: 100%;
+        }
+        body {
+            background-image: linear-gradient(to top, white, blue);
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
+
+ background-attachment: fixed;
+
+ <main> 
+O elemento <main> define o conteúdo principal dentro do <body> em seu documento ou aplicação. Entende-se como conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação
+
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-image: linear-gradient(to right, #F1D8C9, #f2C3A7);
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(136, 109, 93, 0.616);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #f39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(129, 77, 5, 0.726);
+}
+
+h2 {
+    color: #125189;
+
+}
+p {
+    text-align: justify;
+}
+
+Tipografia
+letra x é a mais importante começa por ela a criação de uma fonte, ela define tamanho de todas as outras letras
+
+https://www.w3schools.com/
+
+ /*Medidas Absolutas
+            cm, mm, in polegadas, px, pt, pc
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+
+usar apenas px e em, segundo a w3c 
+padrão 16px font-size
+
+font-weight
+
+<style>
+        body {
+            @import url();
+            text-decoration: underline;
+            font-style: normal;
+            font-weight: normal ;
+            /* lighter normal bold bolder 100-900 */
+            font-size: 16px ;
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in polegadas, px, pt, pc
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            
+           }
+            
+        
+
+       
+    </style>
+
+ <style>
+        body {
+            @import url();
+            text-decoration: underline;
+            font-style: normal;
+            font-weight: normal ;
+            /* lighter normal bold bolder 100-900 */
+            font-size: 16px ;
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in polegadas, px, pt, pc
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            
+           }
+
+           h1 {
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /*shorthand*/
+           }
+            
+        
+
+       
+    </style>
+
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+3 a 4 fontes padrão em um site
+
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love' ;
+            src: url('fontes/love\ larry\ ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style:normal;
+            
+            /*tipos de format ()
+            - opentype (otf)
+            -truetype (ttf)
+            -embedded-opentype
+            -truetype-aat (Apple Advanced Tyography)
+            -svg
+            */
+
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+
+fonts nija
+
+https://www.whatfontis.com/
+
+https://www.fontsquirrel.com/
+
+https://www.myfonts.com/
+
+text-align:
+
+text-indent paragrafo no inicio da frase
+
+ <title>Alinhamento</title>
+    <style>
+        body {
+            font: normal 16px Arial, Verdana, serif;
+            text-align: left;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: right;
+        }
+        
+        p { 
+            text-align: justify;
+            text-indent: 30px;
+        }
+       
+        
+        
+    </style>
+
+<h1 id="principal">
+h1#principal {
+    
+}
+
+/* em HTML é id = em CSS é #
+em HTML é class = em CSS é . */
+
+regra w3c é usar apenas id em um codigo é unico
+
+usar class pode ser varios
+.palavra
+span
+
+:pseudo classe
+
+pseudo elemento ::
+
+https://erikasarti.com/html/dingbats-simbolos-desenhos/
+
+  /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+        */
+
+altura: height
+largura: width
+borda: border
+preenchimento entre a borda e o escrito (borda distante do conteudo): padding
+espaço externo: margin
+contorno/traçado: outline
+
+tipos de caixa
+
+box level: se inicia em uma linha nova; ocupa a largura total da tela. Exemplo de tag: div. h1-h6. p. main. header. nav. article. aside. footer. form. video.
+
+inline level: se inicia do lado da escrita, não ocupa a largura total da tela e continua a escrita do lado da caixa. Não quebra linha. Exemplo de tag: span. a. code. small. strong. em. sup-sub. label. button. input. select.
+
+botão direito do mouse no google chrome seleciona o inspecionar user agent é o navegador do pc
+
+  <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+
+começar com o relogio meio dia e seguir com ele no sentido horario.
+
+colocar a caixa no meio: margin: auto. apenas quando forem caixas.
+
+exemplos simplificados:
+
+   h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray;
+
+            border: 10px solid darkslategray;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+            padding: 10px;
+
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+            margin: 20px 20px 40px 20px;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            outline: 5px dashed salmon;
+        }
+
+só botar um display inline ou block que vc muda a caracteristica original. Também existe inline-block
+
+
+simplificando border
+
+<style>
+        h1 {
+            border: 20px solid black;
+            padding: 10px;
+            border-image-source: url(borda.png);
+            border-image-slice: 27;
+            border-image-repeat: repeat;
+
+            border-image: url('borda.png') 27 repeat
+        }
+    </style>
